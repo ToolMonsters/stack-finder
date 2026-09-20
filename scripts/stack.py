@@ -30,7 +30,7 @@ TXT = {  # prefix of TXT verification record -> tool
  "slack-domain-verification":"Slack","miro-verification":"Miro","onetrust-domain-verification":"OneTrust","openai-domain-verification":"OpenAI (domain verified)",
  "anthropic-domain-verification":"Anthropic (domain verified)","dropbox-domain-verification":"Dropbox","box-domain-verification":"Box",
  "webexdomainverification":"Webex","citrix-verification":"Citrix","knowbe4-site-verification":"KnowBe4","mongodb-site-verification":"MongoDB",
- "hubspot-developer-verification":"HubSpot","hubspot-domain-verification":"HubSpot","figma-domain-verification":"Figma","1password":"1Password",
+ "hubspot-developer-verification":"HubSpot (developer account, not proof of use)","hubspot-domain-verification":"HubSpot","figma-domain-verification":"Figma","1password":"1Password",
  "notion-domain-verification":"Notion","asana-domain-verification":"Asana","canva-site-verification":"Canva","cursor-domain-verification":"Cursor",
  "loom-site-verification":"Loom","gong-verification":"Gong","linear-domain-verification":"Linear","airtable-verification":"Airtable",
  "calendly-site-verification":"Calendly","workplace-domain-verification":"Workplace","smartsheet-site-validation":"Smartsheet",

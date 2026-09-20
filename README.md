@@ -64,6 +64,7 @@ This is most of what the skill does, and it is the part that matters.
 - **A job post is an intention.** A tool named once, as a "nice to have", is a weak signal. The skill says so.
 - **Old records stay.** A company can leave a tool and forget the code in its DNS. One lone DNS signal is reported as "possibly".
 - **Finding nothing proves nothing.** Plenty of tools leave no public trace at all.
+- **Some records prove access, not use.** A `hubspot-developer-verification` record means someone opened a developer account on their marketplace. The skill labels it as such and never counts it as "they run HubSpot". In the 101 sample, 31 of the 74 HubSpot records were exactly that.
 - **Unknown vendors are shown raw.** When a verification code comes from a vendor the list does not know, you get the raw name, not a guess.
 
 ## What it found across 101 SaaS companies
@@ -77,7 +78,7 @@ Ramp, Notion, Vercel, Linear, Clay, HubSpot, Stripe and 94 others. 40 seconds fo
 | Domain verified with OpenAI | 68 |
 | Domain verified with Anthropic | 67 |
 | Both | 57 |
-| HubSpot | 74 |
+| HubSpot | 43 |
 | Salesforce | 57 |
 | Gong | 27 |
 
